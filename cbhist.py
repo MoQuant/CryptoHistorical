@@ -38,5 +38,5 @@ for i in range(j):
     t1 -= dt 
     t0 -= dt
 
-df = pd.DataFrame(data=hold, columns=['Time','Open','High','Low','Close','Volume'])
+df = pd.DataFrame(data=hold, columns=['Time','Low','High','Open','Close','Volume'])
 df.to_csv(f'{ticker}.csv')
